@@ -37,4 +37,7 @@ models:
       +materialized: view
    marts:
       +materialized: table
+   Transformations:
+      +materialized: table
+      schema : Transform
 
